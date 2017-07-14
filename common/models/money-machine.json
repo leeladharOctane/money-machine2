@@ -1,0 +1,83 @@
+{
+    "name" : "MoneyMachine",
+    "plural" : "MoneyMachines",
+    "idInjection" : true,
+    "properties" :{
+        "locationid" : {
+            "type" : "Number"
+        },
+        "Applicant" : {
+            "type" : "String"
+        },
+        "FacilityType": {
+            "type" : "String"
+        },
+        "cnn" : {
+            "type" : "Number"
+        },
+        "LocationDescription" : {
+            "type" : "String"
+        },
+        "Address" : {
+            "type" : "String"
+        },
+        "blocklot" : {
+            "type" : "String"
+        },
+        "block" : {
+            "type" : "String"
+        },
+        "lot" : {
+            "type" : "String"
+        },
+        "permit" : {
+            "type" : "String"
+        },
+        "Status" : {
+            "type" : "String"
+        },
+        "FoodItems" : {
+            "type" : "String"
+        },
+        "X" : {
+            "type" : "Number"
+        },
+        "Y" : {
+            "type" : "Number"
+        },
+        "Latitude" : {
+            "type" : "Number"
+        },
+        "Longitude" : {
+            "type" : "Number"
+        },
+        "Schedule" : {
+            "type" : "String"
+        },
+        "dayshours": {
+            "type" : "String"
+        },
+        "NOISent" : {
+            "type" : "String"
+        },
+        "Approved" : {
+            "type" : "Date"
+        },
+        "Received" : {
+            "type" : "String"
+        },
+        "PriorPermit" : {
+            "type" : "Number"
+        },
+        "ExpirationDate" : {
+            "type" : "Date"
+        },
+        "Location" :{
+            "type" : "String"
+        }
+    },
+    "validations":[],
+    "acls":[],
+    "relations" : {},
+    "methods" : {}
+}
