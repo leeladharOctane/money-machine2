@@ -4,11 +4,11 @@
     "connector": "memory"
   },
   "moneyMachinedb": {
-    "host" : "localhost",
-    "database" : "moneyMachinedb",
+    "host" : "ds157712.mlab.com",
+    "database" : "mmach2db",
     "connector" : "mongodb",
     "connectionTimeout" : 500000,
-    "port": 27017,
-    "url" : "mongodb://localhost:27017/moneyMachinedb"
+    "port": 57712,
+    "url" : "mongodb://leeladhar:123456@ds157712.mlab.com:57712/mmach2db"
   }
 }
