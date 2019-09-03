@@ -81,6 +81,7 @@ module.exports = function (MoneyMachine) {
         }
     );
     MoneyMachine.getByexpiryDate = function (cb){
+        console.log("this is for testing");
         var currentDate = Date.now();
         console.log(currentDate);
         var query = {
